@@ -19,7 +19,7 @@ The maximum length of the extension allowed here is 3 and must not have any spec
 Email address verification are usually used for data validation. Well, there are other techniques better than this one but this is the basic one of them. So, given here is a file 'emails.txt'. So go through all the emails given in the file and implement email validation as explained above.
 
 Sample Input:
-Read from the file “emails.txt”
+//Read from the file “emails.txt”
 Testmail..com
 raven.claw@#hogs.uk
 finnick22@d13.com
