@@ -21,8 +21,11 @@ Email address verification are usually used for data validation. Well, there are
 Sample Input:
 //Read from the file “emails.txt”
 Testmail..com
+
 raven.claw@#hogs.uk
+
 finnick22@d13.com
 
 Sample Output:
+
 finnick22@d13.com
