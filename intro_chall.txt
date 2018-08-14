@@ -1,6 +1,6 @@
-##Ceasar looses his key
+##Caesar looses his key
 
-Can you help the commander of the army to decode the message king Ceasar has sent?
+Can you help the commander of the army to decode the message king Caesar has sent?
 
 ######Ciphertext: rkcrevrapr vf gur grnpure bs nyy guvatf
 ######key: 13
