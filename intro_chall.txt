@@ -2,5 +2,7 @@
 
 Can you help the commander of the army to decode the message king Caesar has sent?
 
-######Ciphertext: rkcrevrapr vf gur grnpure bs nyy guvatf
+######Ciphertext: vapgs{rkcrevrapr vf gur grnpure bs nyy guvatf}
 ######key: 13
+
+flag: inctf{experience is the teacher of all things}
