@@ -1,18 +1,15 @@
-**HASH FUNCTIONS**
+## Transposition Cipher
+Transposition cipher is a cipher in which the characters of the plaintext are changed without any change in their identity. That is, this cipher changes the arrangement of the characteristics of plaintext to get the ciohertext.
 
-A cryptographic hash function takes a message of any size as plaintext and gives out a fixed-sized string as ciphertext. The ciphertext, is an alphanumeric string (containing both letters and numerals) and is called a DIGEST.
-![Picture](https://github.com/nsg1999/Images/blob/master/hash%20intro-1.png)
+Let’s see an example of transposition cipher:
 
-In hash functions, no key is used. It is also known as one-way process as it is impossible to get the original message back once the hashing operation is applied to the message. 
-Message Digest(MD) and Secure Hash (SHA) are some of the popular hash functions.
-For example,
-Using a MD5 hash, “**a**” can be written as “**0cc175b9c0f1b6a831c399e269772661**”
-Amazing! Isn’t it? But one thing to be noted is that the md5 hash is not an ENCRYPTION. It is just a fingerprint of your input.
-Similarly, using a SHA256 hash generator, we can get “**a**” as “**87428FC522803D31065E7BCE3CF03FE475096631E5E07BBD7A0FDE60C4CF25C7**”.
-![Picture](https://github.com/nsg1999/Images/blob/master/sha-1%20example-1.png)
+### Route Cipher
+Suppose we have this sentence: *THE ENEMY IS CLOSE*. So, this could be written in the following pattern:
 
-Every hash output is unique for a unique input and is the same for same input. But, it is possible for the hash function to give the same result for two different inputs.
-As mentioned before, hash functions are one-way functions, it is practically impossible to reverse them, hence, can be used to generate passwords which are really strong.
-Even though the generated hashes are really strong, there are a plenty of online tools available to crack the hashes, CrackStation being one of them.
+                                `T E M S O`
+                                `H N Y C S`
+                                `E E I L E`
 
+And this could be encrypted along the “route” as specified in the key. If the order in the key is to follow along the top-left side to down right-side then the ciphertext would be TEM SOHNY CS EEILE. These secure routes would often leak away important parts of the message thereby breaking the encryption. Hence, it was not widely used or used with another cipher.
 
+Just like how substitution ciphers can be broken with the help of frequency analysis of each letter in the ciphertext similarly transposition ciphers can be broken too! This is done with the help of similar method of frequency analysis of the adjacent letters of plaintext which may help to identify the algorithm that has been used to do the transposition.
