@@ -1,15 +1,21 @@
-## Transposition Cipher
-Transposition cipher is a cipher in which the characters of the plaintext are changed without any change in their identity. That is, this cipher changes the arrangement of the characteristics of plaintext to get the ciohertext.
+**CLASSIFICATION OF CRYPTOSYSTEMS**
 
-Let’s see an example of transposition cipher:
+Fundamentally, there are two types of cryptosystems:
 
-### Route Cipher
-Suppose we have this sentence: *THE ENEMY IS CLOSE*. So, this could be written in the following pattern:
+1. **SYMMETRIC CRYPTOSYSTEM**
+It is a cryptosystem where the same key is used for encrypting and decrypting the information.
 
-                                 T E M S O
-                                 H N Y C S
-                                 E E I L E
+![PICTURE](img/symmetric.png)
 
-And this could be encrypted along the “route” as specified in the key. If the order in the key is to follow along the top-left side to down right-side then the ciphertext would be TEM SOHNY CS EEILE. These secure routes would often leak away important parts of the message thereby breaking the encryption. Hence, it was not widely used or used with another cipher.
+As shown above, the sender uses a KEY to encrypt the PLAINTEXT and sends the CIPHERTEXT to the receiver. The receiver uses the same KEY to decrypt the message.
+Because a single key is used, this system is named as symmetric cryptosystem.
 
-Just like how substitution ciphers can be broken with the help of frequency analysis of each letter in the ciphertext similarly transposition ciphers can be broken too! This is done with the help of similar method of frequency analysis of the adjacent letters of plaintext which may help to identify the algorithm that has been used to do the transposition.
+
+2. **ASYMMETRIC CRYPTOSYSTEM**
+It is a cryptosystem where two different keys are used for encrypting and decrypting the information.This type of cryptosystem is also known as public key cryptosystem.
+
+![PICTURE](img/asymmetric.png)
+
+As shown above, the sender uses a KEY (public key) to encrypt the PLAINTEXT and sends the CIPHERTEXT to the receiver. The receiver uses another KEY (private key) to decrypt the message.
+Because two different keys are used, this system is named as asymmetric cryptosystem.
+
