@@ -8,7 +8,7 @@ Caesar Cipher is an example of classical cryptography as it involved manipulatin
 * Symmetric Key Cryptography
 * Asymmetric Key Cryptography
 
-### Symmetric Key Cryptography
+#### Symmetric Key Cryptography
 We know that symmetric key cryptography is a simplest way of encryption dependent upon a single randomly generated key. Larger key space is required for it to be secure. Popular examples for symmetric key cryptography is DES, AES etc.
 AES is found to be advantageous over DES, as the key size of AES is double to that of DES.
 
@@ -16,7 +16,7 @@ AES is found to be advantageous over DES, as the key size of AES is double to th
 
 Trouble with Symmetric Key Crypto is that, sharing a key becomes difficult over a insecure channel. This led to the rise of Asymmetric Key Cryptography. 
 
-### Asymmetric Key Cryptography
+#### Asymmetric Key Cryptography
 Asymmetric Crypto is highly secure when compared to Symmetric Crypto because it uses separate keys for encryption and decryption. Secrecy in private key is the reason for its security. It also includes generating large numbers and making mathematical operations with them. Popular examples are RSA, DLP etc
 
 RSA is the most popular public key cryptosystem and its security is based on factorisation of a large integer whereas security of DLP is based on calculating the discrete logarithm of a large number. 
